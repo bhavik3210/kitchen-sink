@@ -4,11 +4,11 @@
 
 # Backend Services
 
-- `inventory-management` service for Inventory Management System
-- `order-management` service for processing order (not payment)
+- `inventory-mgmt` service for Inventory Management System
+- `order-mgmt` service for processing order (not payment)
 - `payment-processor` service for processing payments 
   - connecting to third party service for cc validation, etc.
-- `customer-management` service for managing customers data 
+- `customer-mgmt` service for managing customers data 
 - `reporting` service for generating stastical reports for stakeholders
 - `catalog-service` service for frontends 
 - `notification-service` service for sending out notification (email, text, etc.)
